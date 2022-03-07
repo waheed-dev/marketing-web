@@ -1,13 +1,14 @@
 
 import {useState} from "react";
-
+import Link from 'next/link'
 
 export default function Navbar() {
     const [show, setShow] = useState(false);
     return (
   <>
-      <nav className="w-">
+      <nav className="w-full">
           <div className="container mx-auto px-6 flex items-center justify-between">
+              <Link href={'/'}>
               <svg aria-label="Home" className="cursor-pointer w-12 sm:w-auto" id="logo"
                    enableBackground="new 0 0 300 300" height={74} viewBox="0 0 300 300" width={73}
                    xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -18,6 +19,7 @@ export default function Navbar() {
                       />
                   </g>
               </svg>
+              </Link>
               <div>
                   <div onClick="toggleMenu(true)"
                        className="sm:block md:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none"
@@ -51,10 +53,9 @@ export default function Navbar() {
                           </div>
                           <ul className="flex text-3xl md:text-base items-center py-10 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent z-20">
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0">
-                                  <a href="javascript: void(0)">Services</a>
+                                  <Link href={'/Services'}>Services</Link>
                               </li>
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                                  <a href="javascript: void(0)">Contact</a>
                               </li>
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
                                   <a href="javascript: void(0)">A</a>
@@ -83,7 +84,7 @@ export default function Navbar() {
                       <ul className="flex text-3xl md:text-base items-center py-10 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent z-20">
 
                           <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                              <a href="javascript: void(0)">Services</a>
+                              <Link href={'/services'}>Services</Link>
                           </li>
                           <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
                               <a href="javascript: void(0)">Contact</a>
