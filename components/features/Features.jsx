@@ -1,7 +1,7 @@
 import React from "react";
 import {BiSearchAlt} from "react-icons/bi";
 import {SiAdguard, SiFigma, SiShopify} from "react-icons/si";
-import {BsCodeSlash} from "react-icons/bs";
+import {BsCodeSlash, BsGraphUp} from "react-icons/bs";
 import {RiAdvertisementLine} from "react-icons/ri";
 
 function Features() {
@@ -72,10 +72,10 @@ function Features() {
                                 <div className="h-36 border-l-2 hidden lg:block absolute" />
                                 <div className="flex items-center justify-end pb-12 lg:ml-8 xl:ml-0 xl:pr-10">
                                     <div>
-                                        <SiShopify size={80} color={'#4338ca'}/>
+                                        <BsGraphUp size={80} color={'#4338ca'}/>
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
-                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Shopify development</h2>
+                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Social Media Marketing</h2>
                                         <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">This is the length of he dummy content you can use for now. Actual content can be added later.</p>
                                     </div>
                                 </div>
@@ -100,9 +100,9 @@ function Features() {
                                 <div>
                                     <BiSearchAlt size={60} color={'#4338ca'}/>
                                 </div>
-                                <div className="flex flex-col pl-8">
-                                    <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Mobile App</h2>
-                                    <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
+                                <div className="flex flex-col pl-5">
+                                    <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">SEO Services</h2>
+                                    <p className="text-gray-700 leading-7 tracking-wide text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
                                 </div>
                             </div>
                             <div className="flex items-center mt-10 md:mt-0">
@@ -110,7 +110,7 @@ function Features() {
                                     <SiAdguard size={50} color={'#4338ca'}/>
                                 </div>
                                 <div className="flex flex-col pl-5">
-                                    <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Highly Secure</h2>
+                                    <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Online Reputation Management</h2>
                                     <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ function Features() {
                                     <BsCodeSlash size={50} color={'#4338ca'}/>
                                 </div>
                                 <div className="flex flex-col pl-5">
-                                    <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Instant Exchange</h2>
+                                    <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Web development</h2>
                                     <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
                                 </div>
                             </div>
@@ -130,9 +130,9 @@ function Features() {
                                     <div>
                                         <SiFigma size={50} color={'#4338ca'}/>
                                     </div>
-                                    <div className="flex flex-col pl-8">
-                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Multiple Coins</h2>
-                                        <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
+                                    <div className="flex flex-col pl-5">
+                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Web Design</h2>
+                                        <p className="text-gray-700 leading-7 tracking-wide text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
                                     </div>
                                 </div>
                             </div>
@@ -141,10 +141,10 @@ function Features() {
                             <div>
                                 <div className="flex items-center">
                                     <div>
-                                        <SiShopify size={50} color={'#4338ca'}/>
+                                        <BsGraphUp size={50} color={'#4338ca'}/>
                                     </div>
                                     <div className="flex flex-col pl-5">
-                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">24/7 Support</h2>
+                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Social Media Marketing</h2>
                                         <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
                                     </div>
                                 </div>
@@ -155,8 +155,8 @@ function Features() {
                                         <RiAdvertisementLine size={50} color={'#4338ca'} />
                                     </div>
                                     <div className="flex flex-col pl-5">
-                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Insurance Program</h2>
-                                        <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</p>
+                                        <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Google Ads Campaigns</h2>
+                                        <p className="text-gray-700 leading-7 tracking-wide text-base mt-3">This is the length of he dummy content you can use for now. Actual content can be added later.</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,7 +1,4 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import Link from 'next/link'
+
 import {useState} from "react";
 
 
@@ -9,7 +6,7 @@ export default function Navbar() {
     const [show, setShow] = useState(false);
     return (
   <>
-      <nav className="w-full">
+      <nav className="w-">
           <div className="container mx-auto px-6 flex items-center justify-between">
               <svg aria-label="Home" className="cursor-pointer w-12 sm:w-auto" id="logo"
                    enableBackground="new 0 0 300 300" height={74} viewBox="0 0 300 300" width={73}
@@ -54,13 +51,13 @@ export default function Navbar() {
                           </div>
                           <ul className="flex text-3xl md:text-base items-center py-10 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent z-20">
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0">
-                                  <a href="javascript: void(0)">Feature</a>
+                                  <a href="javascript: void(0)">Services</a>
                               </li>
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                                  <a href="javascript: void(0)">Marketplace</a>
+                                  <a href="javascript: void(0)">Contact</a>
                               </li>
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                                  <a href="javascript: void(0)">Company</a>
+                                  <a href="javascript: void(0)">A</a>
                               </li>
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
                                   <a href="javascript: void(0)">Features</a>
@@ -84,17 +81,9 @@ export default function Navbar() {
                           </svg>
                       </div>
                       <ul className="flex text-3xl md:text-base items-center py-10 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent z-20">
-                          <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0">
-                              <a href="javascript: void(0)">Feature</a>
-                          </li>
+
                           <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                              <a href="javascript: void(0)">Marketplace</a>
-                          </li>
-                          <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                              <a href="javascript: void(0)">Company</a>
-                          </li>
-                          <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                              <a href="javascript: void(0)">Features</a>
+                              <a href="javascript: void(0)">Services</a>
                           </li>
                           <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
                               <a href="javascript: void(0)">Contact</a>
@@ -102,10 +91,6 @@ export default function Navbar() {
                       </ul>
                   </div>
               </div>
-              <button
-                  className="focus:outline-none hidden md:block bg-transparent transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Sign
-                  In
-              </button>
           </div>
       </nav>
   </>
