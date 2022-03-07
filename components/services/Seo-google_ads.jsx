@@ -4,17 +4,17 @@ export default function Seo() {
         <>
             <div className="mx-auto container px-6 py-12">
                 <div className="flex flex-col justify-center items-center w-full">
-                    <h1 className="font-bold text-2xl lg:text-4xl  xl:text-6xl leading-normal tracking-wide text-gray-800 text-center">What We Have Done So Far</h1>
-                    <p className="lg:text-2xl font-normal tracking-tight lg:leading-9 py-3 lg:w-3/5 text-gray-700 text-center f-f-l">Dive into our projects from small businesses to Enterprise solutions. Record of delivering</p>
+                    <h1 className="font-bold text-2xl lg:text-4xl  xl:text-6xl leading-normal tracking-wide text-gray-800 text-center">Services that you will love</h1>
+                    <p className="lg:text-2xl font-normal tracking-tight lg:leading-9 py-3 lg:w-3/5 text-gray-700 text-center f-f-l">Dive into our services from small businesses to Enterprise solutions</p>
                 </div>
                 <div className="mt-5 lg:mt-24">
                     <div className="flex lg:flex-row flex-col items-center lg:justify-between pb-14">
-                        <div className="relative flex mb-5 lg:mb-0 w-1/2">
-                            <div className="z-10 ml-3 mt-4 lg:ml-4 lg:mt-4 hidden lg:block">
-                                <img className="w-full" src="/seo.svg" alt />
+                        <div className="relative flex mb-5 lg:mb-0">
+                            <div className="z-10 ml-3 mt-4 lg:ml-4 lg:mt-4 hidden w-1/2 lg:block">
+                                <img className="w-full" src="/seo.svg" alt='seo service image' />
                             </div>
                             <div className="w-full block lg:hidden">
-                                <img className="w-full" src="/seo.svg" alt />
+                                <img className="w-full" src="/seo.svg" alt='seo service mobile image' />
                             </div>
                         </div>
                         <div className="flex items-center lg:w-1/2">
@@ -48,7 +48,7 @@ export default function Seo() {
                         </div>
                     </div>
                     <div className="flex lg:flex-row flex-col items-center lg:justify-between py-8">
-                        <div className="relative lg:hidden flex mb-5 lg:mb-0 flex justify-center pb-8 w-1/2">
+                        <div className="relative lg:hidden flex mb-5 lg:mb-0 flex justify-center pb-8">
                             <img className="w-full" src="/google-ads.svg" alt />
                         </div>
                         <div className="flex items-center md:mt-4 lg:mt-0 lg:w-1/2">
