@@ -5,11 +5,13 @@ import Features from '../components/features/Features'
 import Mission from '../components/mission/Mission'
 import Steps from '../components/steps/Steps'
 import Footer from  '../components/footer/footer'
+import About from '../components/about us/About'
 const Home: NextPage = () => {
   return (
     <div className={''}>
 
         <Hero/>
+        <About/>
         <Features/>
         <Mission/>
         <Steps/>

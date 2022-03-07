@@ -8,23 +8,6 @@ function Features() {
     return (
         <>
             <div className="mx-auto container px-4 xl:px-0 mt-12 lg:mt-28 f-f-p">
-                <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Why Sandiip?</h1>
-                <div className="flex md:pt-16 pt items-center md:pb-32 pb-12">
-                    <div className="hidden sm:block">
-                        <hr className="transform -rotate-90 w-14 h-0.5 border-gray-800"/>
-                    </div>
-                    <div>
-                        <p tabIndex="-1" role="contentinfo"
-                           className="focus:outline-none text-md sm:text-base leading-normal text-gray-600 text-justify lg:text-left">
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                            here', making it look like readable English. Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
-                            uncover many web sites still in their infancy.
-                        </p>
-                    </div>
-                </div>
                 <div className="w-full flex justify-center mt-12 lg:mt-24">
                     <div className="hidden lg:block xl:w-11/12">
                         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
