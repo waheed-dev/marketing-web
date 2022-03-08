@@ -82,7 +82,7 @@ const Steps = () => {
                   </div>
               </div>
           <div className={'container mx-auto flex flex-col items-center py-10 sm:py-16'}>
-              <button className=" focus:outline-none bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-4 sm:px-10 py-2 sm:py-4 text-sm">Request a proposal</button>
+              <button className=" hover:opacity-90 text-base font-bold bg-indigo-700 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">Request a Proposal</button>
           </div>
           </div>
       </section>

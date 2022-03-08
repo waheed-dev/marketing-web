@@ -6,10 +6,13 @@ import Mission from '../components/mission/Mission'
 import Steps from '../components/steps/Steps'
 import Footer from  '../components/footer/footer'
 import About from '../components/about us/About'
+import Head from 'next/head'
 const Home: NextPage = () => {
   return (
     <div className={''}>
-
+        <Head>
+            <title>Sandiip porwal</title>
+        </Head>
         <Hero/>
         <About/>
         <Features/>
