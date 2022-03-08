@@ -56,11 +56,6 @@ export default function Navbar() {
                                   <Link href={'/services'}>Services</Link>
                               </li>
                               <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                              </li>
-                              <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
-                                  <a href="javascript: void(0)">Features</a>
-                              </li>
-                              <li className="text-gray-800 hover:text-gray-900 cursor-pointer lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
                                   <Link href={'/contact'}>Contact</Link>
                               </li>
                           </ul>
