@@ -7,8 +7,11 @@ const Steps = () => {
   return (
       <>
 
-      <section className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto flex flex-wrap">
+          <div className="mx-auto container f-f-p px-4 xl:px-0 py-24">
+              <h1 className="focus:outline-none text-center text-3xl lg:text-5xl tracking-wider text-gray-900">How it
+                  works?</h1>
+          </div>
+          <div className="container px-14 mx-auto flex flex-wrap">
               <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
                   <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
                       <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -55,7 +58,7 @@ const Steps = () => {
                   <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                       <div
                           className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                       <VscRocket size={50} color={'#ea580c'}/>
+                          <VscRocket size={50} color={'#ea580c'}/>
                       </div>
                       <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">DEPLOY</h2>
@@ -81,11 +84,10 @@ const Steps = () => {
                       </div>
                   </div>
               </div>
-          <div className={'container mx-auto flex flex-col items-center py-10 sm:py-16'}>
-              <button className=" hover:opacity-90 text-base font-bold bg-custom-1 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">Request a Proposal</button>
+              <div className={'container mx-auto flex flex-col items-center py-10 sm:py-16'}>
+                  <button className=" hover:opacity-90 text-base font-bold bg-custom-1 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">Request a Proposal</button>
+              </div>
           </div>
-          </div>
-      </section>
 
       </>
   )
