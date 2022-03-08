@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
     return (
         <>
-            <div className="bg-black py-16 flex flex-col items-center justify-center align-baseline f-f-l mt-20">
+            <div className="bg-gray-800 py-16 flex flex-col items-center justify-center align-baseline f-f-l mt-20">
                 <div className="">
                     <svg aria-label="Home" className="cursor-pointer w-12 sm:w-auto" id="logo"
                          enableBackground="new 0 0 300 300" height={74} viewBox="0 0 300 300" width={73}
