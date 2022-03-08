@@ -14,12 +14,12 @@ const Steps = () => {
                       <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                   </div>
                   <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1
+                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">1
                   </div>
                   <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                       <div
-                          className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <GiArchiveResearch size={50} color={'#4338ca'}/>
+                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                          <GiArchiveResearch size={50} color={'#ea580c'}/>
                       </div>
                       <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Research</h2>
@@ -32,12 +32,12 @@ const Steps = () => {
                       <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                   </div>
                   <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">2
+                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">2
                   </div>
                   <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                       <div
-                          className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <VscCode size={50} color={'#4338ca'}/>
+                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                          <VscCode size={50} color={'#ea580c'}/>
                       </div>
                       <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">DEVELOP</h2>
@@ -50,12 +50,12 @@ const Steps = () => {
                       <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                   </div>
                   <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">3
+                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">3
                   </div>
                   <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                       <div
-                          className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                       <VscRocket size={50} color={'#4338ca'}/>
+                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                       <VscRocket size={50} color={'#ea580c'}/>
                       </div>
                       <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">DEPLOY</h2>
@@ -68,12 +68,12 @@ const Steps = () => {
                       <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                   </div>
                   <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">4
+                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">4
                   </div>
                   <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                       <div
-                          className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <SiSimpleanalytics size={50} color={'#4338ca'} />
+                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                          <SiSimpleanalytics size={50} color={'#ea580c'} />
                       </div>
                       <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">ANALYSE</h2>
@@ -82,7 +82,7 @@ const Steps = () => {
                   </div>
               </div>
           <div className={'container mx-auto flex flex-col items-center py-10 sm:py-16'}>
-              <button className=" hover:opacity-90 text-base font-bold bg-indigo-700 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">Request a Proposal</button>
+              <button className=" hover:opacity-90 text-base font-bold bg-custom-1 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">Request a Proposal</button>
           </div>
           </div>
       </section>

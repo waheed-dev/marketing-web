@@ -14,7 +14,7 @@ function Features() {
                             <div>
                                 <div className="flex items-center justify-end pb-12 xl:pr-10">
                                     <div className={'mt-6'}>
-                                        <BiSearchAlt size={80} color={'#4338ca'}/>
+                                        <BiSearchAlt size={80} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">SEO Services</h2>
@@ -29,7 +29,7 @@ function Features() {
                                 <div className="h-36 border-l-2 border-b border-gray-300 hidden lg:block absolute" />
                                 <div className="flex items-center justify-end pb-12 lg:ml-8 xl:ml-0 xl:pr-10">
                                     <div className={'mb-10'}>
-                                        <SiAdguard size={80} color={'#4338ca'}/>
+                                        <SiAdguard size={80} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Online Reputation Management</h2>
@@ -44,7 +44,7 @@ function Features() {
                                 <div className="h-36 border-l-2 hidden lg:block absolute" />
                                 <div className="flex items-center justify-end pb-12 lg:ml-8 xl:ml-0 xl:pr-10">
                                     <div className={'mb-6'}>
-                                        <BsCodeSlash size={80} color={'#4338ca'}/>
+                                        <BsCodeSlash size={80} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Web development</h2>
@@ -60,7 +60,7 @@ function Features() {
                             <div>
                                 <div className="flex items-center justify-end pb-12 pr-10">
                                     <div className={'mt-8'}>
-                                        <SiFigma size={80} color={'#4338ca'}/>
+                                        <SiFigma size={80} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Website Design</h2>
@@ -72,7 +72,7 @@ function Features() {
                                 <div className="h-36 border-l-2 hidden lg:block absolute" />
                                 <div className="flex items-center justify-end pb-12 lg:ml-8 xl:ml-0 xl:pr-10">
                                     <div>
-                                        <BsGraphUp size={80} color={'#4338ca'}/>
+                                        <BsGraphUp size={80} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Social Media Marketing</h2>
@@ -84,7 +84,7 @@ function Features() {
                                 <div className="h-36 border-l-2 hidden lg:block absolute" />
                                 <div className="flex items-center justify-end pb-12 lg:ml-8 xl:ml-0 xl:pr-10">
                                     <div>
-                                        <RiAdvertisementLine size={80} color={'#4338ca'} />
+                                        <RiAdvertisementLine size={80} color={'#ea580c'} />
                                     </div>
                                     <div className="flex flex-col pl-8 xl:w-8/12">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Google Ads Campaigns</h2>
@@ -98,7 +98,7 @@ function Features() {
                         <div className="md:flex w-full justify-between items-center">
                             <div className="flex items-center">
                                 <div>
-                                    <BiSearchAlt size={60} color={'#4338ca'}/>
+                                    <BiSearchAlt size={60} color={'#ea580c'}/>
                                 </div>
                                 <div className="flex flex-col pl-5">
                                     <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">SEO Services</h2>
@@ -107,7 +107,7 @@ function Features() {
                             </div>
                             <div className="flex items-center mt-10 md:mt-0">
                                 <div>
-                                    <SiAdguard size={50} color={'#4338ca'}/>
+                                    <SiAdguard size={50} color={'#ea580c'}/>
                                 </div>
                                 <div className="flex flex-col pl-5">
                                     <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Online Reputation Management</h2>
@@ -118,7 +118,7 @@ function Features() {
                         <div className="md:flex w-full justify-between items-center my-10">
                             <div className="flex items-center">
                                 <div>
-                                    <BsCodeSlash size={50} color={'#4338ca'}/>
+                                    <BsCodeSlash size={50} color={'#ea580c'}/>
                                 </div>
                                 <div className="flex flex-col pl-5">
                                     <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Web development</h2>
@@ -128,7 +128,7 @@ function Features() {
                             <div className="mt-10 md:mt-0">
                                 <div className="flex items-center">
                                     <div>
-                                        <SiFigma size={50} color={'#4338ca'}/>
+                                        <SiFigma size={50} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-5">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Web Design</h2>
@@ -141,7 +141,7 @@ function Features() {
                             <div>
                                 <div className="flex items-center">
                                     <div>
-                                        <BsGraphUp size={50} color={'#4338ca'}/>
+                                        <BsGraphUp size={50} color={'#ea580c'}/>
                                     </div>
                                     <div className="flex flex-col pl-5">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Social Media Marketing</h2>
@@ -152,7 +152,7 @@ function Features() {
                             <div className="mt-10 md:mt-0">
                                 <div className="flex items-center">
                                     <div>
-                                        <RiAdvertisementLine size={50} color={'#4338ca'} />
+                                        <RiAdvertisementLine size={50} color={'#ea580c'} />
                                     </div>
                                     <div className="flex flex-col pl-5">
                                         <h2 className="text-base xl:text-2xl font-semibold tracking-wider text-gray-900">Google Ads Campaigns</h2>
