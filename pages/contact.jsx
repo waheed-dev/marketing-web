@@ -8,6 +8,7 @@ const Contact = () => {
       <div className="py-12 2xl:px-20 px-6 xl:mx-auto xl:container">
           <div className="flex flex-col items-center">
               <h1 className="text-3xl font-bold text-gray-800 text-center w-11/12 sm:w-2/3 mb-5 sm:mb-10">Want to Grow your Business with better Digital Marketing Results. We will Help You Get There.</h1>
+              <p className="text-xl mt-10 font-semibold leading-5 text-center text-gray-800">Drop us a line and let's get to work!</p>
               <div
                   className="container mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-12 gap-6">
                   <div className="bg-white border rounded-md border-gray-200 h-80 flex flex-col items-center px-4">
