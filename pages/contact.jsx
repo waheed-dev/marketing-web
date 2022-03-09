@@ -30,7 +30,7 @@ const Contact = () => {
                       <div className={'bg-red-400 h-8 w-2 absolute mr-96 ml-12  md:mr-96 md:ml-11 lg:mr-80 lg:ml-10'}></div>
                       <p className="text-xl mt-10 font-semibold leading-5 text-center text-gray-800">SIGN UP</p>
                       <p className="text-gray-600 font-normal leading-7 text-left text-lg sm:text-lg mt-4 lg:w-8/10 sm:w-10/12">Once you sign up for our digital marketing services you have with you a performance-driven digital agency as marketing partner.</p>
-              <button className=" hover:opacity-90 text-base font-normal bg-custom-1 rounded f-m-m md:py-2 py-2 px-2 mt-6 md:px-6 foucus:outline-none text-white">Drop us a line</button>
+              <button className=" hover:opacity-90 text-base font-normal bg-custom-1 rounded f-m-m md:py-2 py-2 px-2 mt-6 md:px-6 foucus:outline-none text-white">Schedule Appointment</button>
                   </div>
               </div>
           </div>
