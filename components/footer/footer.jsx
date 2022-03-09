@@ -41,16 +41,16 @@ export default function Footer() {
                 <div>
                     <ul className="flex">
                         <Link href="/">
-                            <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Home</li>
+                            <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-orange-600">Home</li>
                         </Link>
                         <Link href="/services">
-                            <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Services</li>
+                            <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-orange-600">Services</li>
                         </Link>
                         <Link href="/contact">
-                            <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Contact</li>
+                            <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-orange-600">Contact</li>
                         </Link>
                         <a href="javascript:void(0)">
-                            <li className="lg:text-lg text-sm text-sm leading-5 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Schedule an appointment</li>
+                            <li className="lg:text-lg text-sm text-sm leading-5 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-orange-600">Schedule an appointment</li>
                         </a>
                     </ul>
                 </div>

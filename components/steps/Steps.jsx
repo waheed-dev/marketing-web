@@ -11,76 +11,38 @@ const Steps = () => {
               <h1 className="focus:outline-none text-center text-3xl lg:text-5xl tracking-wider text-gray-900">How it
                   works?</h1>
           </div>
-          <div className="container px-14 mx-auto flex flex-wrap">
-              <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-                  <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                      <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                  </div>
-                  <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">1
-                  </div>
-                  <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                      <div
-                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <GiArchiveResearch size={50} color={'#ea580c'}/>
-                      </div>
-                      <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Research</h2>
-                          <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, neque!.</p>
-                      </div>
-                  </div>
-              </div>
-              <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-                  <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                      <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                  </div>
-                  <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">2
-                  </div>
-                  <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                      <div
-                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <VscCode size={50} color={'#ea580c'}/>
-                      </div>
-                      <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">DEVELOP</h2>
-                          <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero.</p>
-                      </div>
-                  </div>
-              </div>
-              <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-                  <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                      <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                  </div>
-                  <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">3
-                  </div>
-                  <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                      <div
-                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <VscRocket size={50} color={'#ea580c'}/>
-                      </div>
-                      <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">DEPLOY</h2>
-                          <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, illum!</p>
-                      </div>
-                  </div>
-              </div>
-              <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-                  <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                      <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                  </div>
-                  <div
-                      className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm">4
-                  </div>
-                  <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                      <div
-                          className="flex-shrink-0 w-24 h-24 bg-orange-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                          <SiSimpleanalytics size={50} color={'#ea580c'} />
-                      </div>
-                      <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">ANALYSE</h2>
-                          <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, praesentium?</p>
+          <div className=" container mx-auto">
+              <div className="flex justify-center w-full items-center">
+                  <div className="w-11/12 f-f-p">
+                      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                              <GiArchiveResearch size={50} color={'#ea580c'}/>
+                              <div className="mt-5">
+                                  <h1 className=" text-2xl tracking-wide font-bold">RESEARCH</h1>
+                                  <h2 className=" mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Pharetra eget donec</h2>
+                              </div>
+                          </div>
+                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                              <VscCode size={50} color={'#ea580c'}/>
+                              <div className="mt-5">
+                                  <h1 className="text-gray-900 text-2xl tracking-wide font-bold">DEVELOP</h1>
+                                  <h2 className="text-gray-700 mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</h2>
+                              </div>
+                          </div>
+                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                              <VscRocket size={50} color={'#ea580c'}/>
+                              <div className="mt-5">
+                                  <h1 className="text-gray-900 text-2xl tracking-wide font-bold">DEPLOY</h1>
+                                  <h2 className="text-gray-700 mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</h2>
+                              </div>
+                          </div>
+                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                              <SiSimpleanalytics size={50} color={'#ea580c'} />
+                              <div className="mt-5">
+                                  <h1 className="text-gray-900 text-2xl tracking-wide font-bold">ANALYSE</h1>
+                                  <h2 className="text-gray-700 mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</h2>
+                              </div>
+                          </div>
                       </div>
                   </div>
               </div>
