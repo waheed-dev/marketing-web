@@ -7,7 +7,7 @@ const Contact = () => {
   return (
       <div className="py-12 2xl:px-20 px-6 xl:mx-auto xl:container">
           <div className="flex flex-col items-center">
-              <h1 className="text-5xl font-bold text-gray-800 text-center">Contact us</h1>
+              <h1 className="text-5xl font-bold text-gray-800 text-center">Contact</h1>
               <p className="text-base leading-normal text-center text-gray-600 mt-5 md:w-3/5">Want to Grow your Business with better Digital Marketing Results. We will Help You Get There.</p>
               <p className="text-base leading-normal text-center text-gray-600 mt-5 md:w-3/5">Whatever your requirements or budget, our the talented team of digital experts at Sandiip Porwal Digital Marketing Consultancy is here and ready to help you.</p>
               <p className="text-base leading-normal text-center text-gray-600 mt-5 md:w-3/5">We offer a first free consultation followed by a brainstorming session pre signup for a fee and then once you sign up for our digital marketing services you have with you a performance-driven digital agency as marketing partner.</p>
