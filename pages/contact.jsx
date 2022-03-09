@@ -7,7 +7,7 @@ const Contact = () => {
   return (
       <div className="py-12 2xl:px-20 px-6 xl:mx-auto xl:container">
           <div className="flex flex-col items-center">
-              <h1 className="text-3xl font-bold text-gray-800 text-center w-11/12 sm:w-2/3 mb-5 sm:mb-10">Want to Grow your Business with better Digital Marketing Results. We will Help You Get There.</h1>
+              <h1 className="font-bold text-2xl lg:text-4xl  xl:text-6xl leading-normal tracking-wide text-gray-800 text-center">Want to Grow your Business with better Digital Marketing Results.<span className={'text-custom-1'}> We will Help You Get There.</span></h1>
               <p className="text-xl mt-10 font-semibold leading-5 text-center text-gray-800">Drop us a line and let's get to work!</p>
               <div
                   className="container mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-12 gap-6">
@@ -35,8 +35,7 @@ const Contact = () => {
                   </div>
               </div>
           </div>
-          <div className={'container mx-auto flex flex-col items-center py-10 sm:py-16'}>
-          </div>
+
       </div>
   )
 }
