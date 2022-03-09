@@ -15,7 +15,7 @@ const Contact = () => {
               <div
                   className="container mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 mt-10 gap-6">
                   <div className="bg-white border rounded-md border-gray-200 h-64 flex flex-col items-center">
-                      <div className="w-16 mt-8 h-16 bg-indigo-50 rounded-full flex items-center justify-center"
+                      <div className="w-16 mt-8 h-16 bg-orange-50 rounded-full flex items-center justify-center"
                            role="img" aria-label="phone number">
                           <BsTelephone size={50} color={'#ea580c'} />
                       </div>
@@ -23,7 +23,7 @@ const Contact = () => {
                       <p className="text-base mt-4 leading-4 text-center text-gray-600">(007) 095-6890</p>
                   </div>
                   <div className="bg-white border rounded-md border-gray-200 h-64 flex flex-col items-center">
-                      <div className="w-16 mt-8 h-16 bg-indigo-50 rounded-full flex items-center justify-center"
+                      <div className="w-16 mt-8 h-16 bg-orange-50 rounded-full flex items-center justify-center"
                            role="img" aria-label="email">
                           <AiOutlineMail size={50} color={'#ea580c'} />
                       </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                       <p className="text-base mt-4 leading-4 text-center text-gray-600">Alphasquad@gmail.com</p>
                   </div>
                   <div className="bg-white border rounded-md border-gray-200 h-64 flex flex-col items-center">
-                      <div className="w-16 mt-8 h-16 bg-indigo-50 rounded-full flex items-center justify-center"
+                      <div className="w-16 mt-8 h-16 bg-orange-50 rounded-full flex items-center justify-center"
                            role="img" aria-label="location">
                           <GoLocation size={50} color={'#ea580c'} />
                       </div>

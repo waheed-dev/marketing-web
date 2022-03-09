@@ -15,21 +15,21 @@ const Steps = () => {
               <div className="flex justify-center w-full items-center">
                   <div className="w-11/12 f-f-p">
                       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                          <div className="py-10 px-5 rounded-3xl bg-orange-50">
                               <GiArchiveResearch size={50} color={'#ea580c'}/>
                               <div className="mt-5">
                                   <h1 className=" text-2xl tracking-wide font-bold">RESEARCH</h1>
                                   <h2 className=" mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Pharetra eget donec</h2>
                               </div>
                           </div>
-                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                          <div className="py-10 px-5 rounded-3xl bg-orange-50">
                               <VscCode size={50} color={'#ea580c'}/>
                               <div className="mt-5">
                                   <h1 className="text-gray-900 text-2xl tracking-wide font-bold">DEVELOP</h1>
                                   <h2 className="text-gray-700 mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</h2>
                               </div>
                           </div>
-                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                          <div className="py-10 px-5 rounded-3xl bg-orange-50">
                               <VscRocket size={50} color={'#ea580c'}/>
                               <div className="mt-5">
                                   <h1 className="text-gray-900 text-2xl tracking-wide font-bold">DEPLOY</h1>
