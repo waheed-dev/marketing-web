@@ -4,7 +4,7 @@ export default function Seo() {
         <>
             <div className="mx-auto container px-6 py-12">
                 <div className="flex flex-col justify-center items-center w-full">
-                    <h1 className="font-bold text-2xl lg:text-4xl  xl:text-6xl leading-normal tracking-wide text-gray-800 text-center">Services that you will love</h1>
+                    <h1 className="font-bold text-2xl lg:text-4xl  xl:text-6xl leading-normal tracking-wide text-gray-800 text-center">Services that<span className="text-custom-1"> you will love</span></h1>
                     <p className="lg:text-2xl font-normal tracking-tight lg:leading-9 py-3 lg:w-3/5 text-gray-700 text-center f-f-l">Dive into our services from small businesses to Enterprise solutions</p>
                 </div>
                 <div className="mt-5 lg:mt-24">
