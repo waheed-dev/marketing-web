@@ -4,7 +4,8 @@ import {SiAdguard, SiFigma, SiShopify} from "react-icons/si";
 import {BsCodeSlash, BsGraphUp} from "react-icons/bs";
 import {RiAdvertisementLine} from "react-icons/ri";
 import {FaAdversal, FaSearchDollar} from "react-icons/fa";
-import {GiAbstract014, MdSocialDistance} from "react-icons/all";
+import {GiAbstract014} from "react-icons/gi";
+import {MdSocialDistance} from "react-icons/md";
 
 function Features() {
     return (
