@@ -36,7 +36,7 @@ const Steps = () => {
                                   <h2 className="text-gray-700 mt-2 leading-6 text-base tracking-wider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eget donec</h2>
                               </div>
                           </div>
-                          <div className="py-10 px-5 rounded-3xl bg-orange-100">
+                          <div className="py-10 px-5 rounded-3xl bg-orange-50">
                               <SiSimpleanalytics size={50} color={'#ea580c'} />
                               <div className="mt-5">
                                   <h1 className="text-gray-900 text-2xl tracking-wide font-bold">ANALYSE</h1>
